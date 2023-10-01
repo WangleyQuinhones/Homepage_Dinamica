@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    font-family: 'heebo', sans-serif;
+}
+
+header{
+    background-color: #fff;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,0.15);
+    height: 80px;
+}
+
+header .logo{
+    display: inline-block;
+}
+
+header nav{
+    display: inline-block;
+    float: right;
+}
+
+header nav ul li{
+    display: inline-block;
+}
