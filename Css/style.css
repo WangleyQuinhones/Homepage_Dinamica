@@ -299,6 +299,7 @@ section.newsletter form input{
     box-sizing: border-box;
     border-radius: 60px 0 0 60px;
     border: 1px solid #3E3E3E;
+    border-right: none;
     font-family: Heebo;
     font-size: 14px;
     letter-spacing: 0.35px;
@@ -319,6 +320,13 @@ section.newsletter form button{
     letter-spacing: 0.35px;
     line-height: 21px;
     text-transform: uppercase;
+}
+
+section.newsletter form button:hover{
+    border: 1px solid #3e3e3e;
+    background-color: #FFF;
+    color: #3e50e5; 
+    border: 1px solid #3E3E3E;   
 }
 
 footer .botton-nav{
@@ -345,6 +353,10 @@ footer .botton-nav ul li a{
     letter-spacing: 0.4px;
     text-decoration: none;
     display: block;
+}
+
+footer .botton-nav ul li a:hover{
+    color: #3e50e5;
 }
 
 footer .botton-nav ul li.list-title{
