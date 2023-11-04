@@ -5,7 +5,8 @@ body{
 }
 
 .container{
-    max-width: 1180px;
+    max-width: 1440px;
+    max-width: 90%;
     margin: auto;
     padding: 0 16px;
 }
@@ -54,6 +55,16 @@ header nav{
 
 header nav ul li{
     display: inline-block;
+}
+
+header nav ul li.menu-icon{
+    display: none;
+}
+
+header nav ul li.menu-icon img{
+    vertical-align: middle;
+    width: 24px;
+    height: auto;
 }
 
 header nav ul li a{
@@ -379,4 +390,50 @@ footer .copyright-text{
     font-size: 16px;
     letter-spacing: 0.4px;
     line-height: 22px;
+}
+
+
+
+@media screen  and (max-width: 1440px) {
+    .container{
+        width: 1180px;
+        max-width: 90%;
+    }
+
+    body {
+        padding-top: 70px;
+    }
+
+    header{
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .container{
+        max-width: 92%;
+    } 
+
+    header .logo{
+        font-size: 24px;
+    }
+    
+    header nav ul li{
+        display: none;
+    }
+    
+    header nav ul li.menu-icon{
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 576px){
+    header .logo{
+        font-size: 18px;
+    }
+
+    header .logo .blue-dot{
+        width: 7px;
+        height: 7px;
+    }
 }
