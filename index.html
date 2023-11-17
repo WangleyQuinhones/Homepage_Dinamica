@@ -10,7 +10,7 @@
 Roboto: ital,wght@0,100;0,700;1,400;1,700 & display=swap" rel="folha de estilo">
 <link rel="stylesheet" href="Css/style.css">
 
-    <title>Homepage</title>
+    <title></title>
 </head>
 <body>
 
@@ -33,14 +33,18 @@ Roboto: ital,wght@0,100;0,700;1,400;1,700 & display=swap" rel="folha de estilo">
     </header>
 
     <section class="hero">
-        <img src="images/01 (1).jpg" alt="hero image - smart watch">
+        <picture>
+            <source media="(max-width:576px)" srcset="images/Hero_Large_Mobile.jpg">
+            <source media="(max-width:960px)" srcset="images/Hero_Tablet.jpg">
+            <source media="(max-width:1440px)" srcset="images/Hero_Desktop.jpg">
+            <img src="images/Hero_Large_Desktop.jpg" alt="hero image - smart watch">
+          </picture>   
         <div class="hero-content">
             <div class="container">
-                <h1>Explore our new smart watch series</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                     In pellentesque, nisi id viverra aliquam, libero ipsum vehicula.
-                </p>
-                <button>SEE ALL WATCHES</button>
+                <h1>Explore nossa nova coleção de relógios inteligentes</h1>
+                <p>Os melhores Smartwatches a preços imperdíveis!</p>
+
+                <button>VER TODOS</button>
             </div>
         </div>
     </section>
@@ -52,7 +56,7 @@ Roboto: ital,wght@0,100;0,700;1,400;1,700 & display=swap" rel="folha de estilo">
             <div class="container">
                 <div class="product novo">
                     <div class="product-picture">
-                        <img src="images/img.jpg" alt="">
+                        <img src="images/Case.jpg" alt="">
                     </div>
                     <div class="product-info">
                         <h5 class="categories">Relógios Inteligentes, Cases, Apple</h5>
@@ -66,7 +70,7 @@ Roboto: ital,wght@0,100;0,700;1,400;1,700 & display=swap" rel="folha de estilo">
 
                 <div class="product novo">
                     <div class="product-picture">
-                        <img src="images/img (1).jpg" alt="">
+                        <img src="images/Fone.jpg" alt="">
                     </div>
                     <div class="product-info">
                         <h5 class="categories">Fones de Ouvido, Áudio, Som</h5>
@@ -80,7 +84,7 @@ Roboto: ital,wght@0,100;0,700;1,400;1,700 & display=swap" rel="folha de estilo">
                 
                 <div class="product novo">
                     <div class="product-picture">
-                        <img src="images/img (2).jpg" alt="">
+                        <img src="images/Camera.jpg" alt="">
                     </div>
                     <div class="product-info">
                         <h5 class="categories">Câmeras, Kits, Foto e Vídeo</h5>
@@ -97,11 +101,11 @@ Roboto: ital,wght@0,100;0,700;1,400;1,700 & display=swap" rel="folha de estilo">
     </section>
 
     <section class="newsletter">
-        <h3>Newsletter Signup</h3>
-        <p>Subscribe no and don't miss a single deal!</p>
+        <h3>Inscreva-se para receber nossas promoções!</h3>
+        <p>Não esqueça de se inscrever para receber grandes ofertas!</p>
         <form>
-            <input type="email" nome="email" placeholder="Your email address...">
-            <button type="submit">Subscride</button>
+            <input type="email" nome="email" placeholder="Seu endereço de email...">
+            <button type="submit">Inscreva-se</button>
         </form>
     </section>
 
@@ -110,22 +114,22 @@ Roboto: ital,wght@0,100;0,700;1,400;1,700 & display=swap" rel="folha de estilo">
             <div class="container">
                 <ul>
                     <li class="list-title"><a href="#">Categorias</a></li>
-                    <li><a href="#">Watches</a></li>
-                    <li><a href="#">Cameras</a></li>
-                    <li><a href="#">Phone</a></li>
-                    <li><a href="#">Tablets</a></li>
-                    <li><a href="#">Computers</a></li>
+                    <li><a href="#">Relógios</a></li>
+                    <li><a href="#">Câmeras</a></li>
+                    <li><a href="#">Telefone</a></li>
+                    <li><a href="#">Tabletes</a></li>
+                    <li><a href="#">Computadores</a></li>
                 </ul>
                 <ul>
-                    <li class="list-title"><a href="#">Abou us</a></li>
-                    <li><a href="#">Our Story</a></li>
-                    <li><a href="#">Press</a></li>
+                    <li class="list-title"><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Nossa história</a></li>
+                    <li><a href="#">Imprensa</a></li>
                     <li><a href="#">Blog</a></li>
-                    <li><a href="#">Awards</a></li>
-                    <li><a href="#">Stores</a></li>
+                    <li><a href="#">Prêmios</a></li>
+                    <li><a href="#">Lojas</a></li>
                 </ul>
                 <ul>
-                    <li class="list-title"><a href="#">Social Media</a></li>
+                    <li class="list-title"><a href="#">Mídia social</a></li>
                     <li><a href="#">Facebook</a></li>
                     <li><a href="#">TikTok</a></li>
                     <li><a href="#">Instagram</a></li>
@@ -133,12 +137,12 @@ Roboto: ital,wght@0,100;0,700;1,400;1,700 & display=swap" rel="folha de estilo">
                     <li><a href="#">Youtube</a></li>
                 </ul>
                 <ul>
-                    <li class="list-title"><a href="#">Customer Service</a></li>
-                    <li><a href="#">Live Chat</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
-                    <li><a href="#">Delevery e Returns</a></li>
-                    <li><a href="#">Finance</a></li>
+                    <li class="list-title"><a href="#">Atendimento ao Cliente</a></li>
+                    <li><a href="#">Bate-papo ao vivo</a></li>
+                    <li><a href="#">Contate-nos</a></li>
+                    <li><a href="#">Termos e Condições</a></li>
+                    <li><a href="#"> Entrega e Devoluções</a></li>
+                    <li><a href="#">Finanças</a></li>
                 </ul>
             </div>
         </div>
